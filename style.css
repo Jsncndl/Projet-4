@@ -532,8 +532,8 @@ button {
 
 a[data-lightbox] {
     position: relative;
-    display: block;
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 a[data-lightbox]:hover::before {
